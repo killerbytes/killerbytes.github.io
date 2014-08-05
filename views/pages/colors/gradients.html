@@ -1,0 +1,41 @@
+<breadcrumbs parent="breadcrumbs.colors" page="'gradients'"></breadcrumbs>
+<div class="row">
+	<div class="col-md-12">
+		
+		<h4 class="space3">Primary Gradient</h4>
+		<div class="row">
+			<p class="space3 col-md-8">
+				Wes Anderson before they sold out chambray, viral High Life Pinterest forage pork belly Schlitz. Fashion axe High Life readymade polaroid butcher. DIY tousled VHS small batch synth organic. Plaid jean shorts normcore, vegan skateboard bitters Thundercats direct trade post-ironic art party flexitarian tousled seitan mixtape cornhole.
+			</p>
+		</div>
+
+		<ul class="list-unstyled">
+			<li ng-repeat="item in colors.gradients.primary" class="photo-text font-12 color-box-text space5">
+				<div class="color-box mr bg {{item.class}}"></div>
+				<div class="text-content">
+				<h5 class="text-upper">{{item.title}}</h5>
+				<strong>{{item.description}}</strong><br>
+				</div>
+			</li>
+		</ul>
+
+		<div class="space5"></div>
+		
+		<h4 class="space3">Secondary Gradients</h4>
+		<div class="row">
+			<p class="space3 col-md-8">
+				Wes Anderson before they sold out chambray, viral High Life Pinterest forage pork belly Schlitz. Fashion axe High Life readymade polaroid butcher. DIY tousled VHS small batch synth organic. Plaid jean shorts normcore, vegan skateboard bitters Thundercats direct trade post-ironic art party flexitarian tousled seitan mixtape cornhole.
+			</p>
+		</div>
+
+		<ul class="list-unstyled">
+			<li ng-repeat="item in colors.gradients.secondary" class="photo-text font-12 color-box-text space5">
+				<div class="color-box mr bg {{item.class}}"></div>
+				<div class="text-content">
+				<h5 class="text-upper">{{item.title}}</h5>
+				<strong>{{item.description}}</strong><br>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
