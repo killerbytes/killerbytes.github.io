@@ -11,7 +11,7 @@
 
 
 body{
-	font: 300 14px 'Open Sans';
+	font: 300 15px 'Open Sans';
 }
 
 [role="main"]{
@@ -19,7 +19,7 @@ body{
 	padding-bottom: 100px;
 }
 
-.container{
+.wrapper{
 	@extend .bg.fm-gray2;
 }
 

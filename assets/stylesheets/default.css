@@ -175,7 +175,7 @@
   color: #eae6e6;
 }
 /* line 28, ../../sass/components/colors.scss */
-.fm-gray2.bg, .container {
+.fm-gray2.bg, .wrapper {
   background-color: #eae6e6;
 }
 
@@ -568,7 +568,7 @@ h5 {
 
 /* line 13, ../../sass/default.scss */
 body {
-  font: 300 14px 'Open Sans';
+  font: 300 15px 'Open Sans';
 }
 
 /* line 17, ../../sass/default.scss */
@@ -630,5 +630,10 @@ ul.list-logo .logo {
   /* line 2, ../../sass/media.scss */
   ul.list-logo li {
     margin: 0 35px;
+  }
+
+  /* line 5, ../../sass/media.scss */
+  .sidebar {
+    padding: 85px;
   }
 }

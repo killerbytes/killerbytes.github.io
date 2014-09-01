@@ -39,7 +39,9 @@ angular.module('fmApp')
 							title: 'Gradients',
 							path: '/colors/gradients'
 						}]
-					}, {
+					}
+					/*
+					, {
 						title: 'Form Elements',
 						path: '/forms/buttons',
 						submenu: [{
@@ -59,7 +61,9 @@ angular.module('fmApp')
 							path: '/forms/icons'
 						},]
 
-					}]
+					}
+					*/
+					]
 
 			      scope.isActive = function(path) {
 			        var pttrn = new RegExp('^' + path, 'gi');
